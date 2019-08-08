@@ -1,0 +1,68 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/candidate_Data_Lwc": [
+                "candidate_Data_Lwc/candidate_Data_Lwc.js"
+            ],
+            "c/customer_Data_Lwc": [
+                "customer_Data_Lwc/customer_Data_Lwc.js"
+            ],
+            "c/first_Child_Lwc": [
+                "first_Child_Lwc/first_Child_Lwc.js"
+            ],
+            "c/lWCEvents": [
+                "lWCEvents/lWCEvents.js"
+            ],
+            "c/lwcFlowScreen_Cmp": [
+                "lwcFlowScreen_Cmp/lwcFlowScreen_Cmp.js"
+            ],
+            "c/lwcUploadFiles_Cmp": [
+                "lwcUploadFiles_Cmp/lwcUploadFiles_Cmp.js"
+            ],
+            "c/master_Lwc": [
+                "master_Lwc/master_Lwc.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/student_Data_Lwc": [
+                "student_Data_Lwc/student_Data_Lwc.js"
+            ],
+            "c/student_lwc": [
+                "student_lwc/student_lwc.js"
+            ],
+            "c/user_Application_App": [
+                "user_Application_App/user_Application_App.js"
+            ],
+            "c/Candidate_Lwc": [
+                "Candidate_Lwc/Candidate_Lwc.js"
+            ],
+            "c/candidate_Lwc": [
+                "candidate_Lwc/candidate_Lwc.js"
+            ],
+            "c/Parent_Lwc": [
+                "Parent_Lwc/Parent_Lwc.js"
+            ],
+            "c/parent_Lwc": [
+                "parent_Lwc/parent_Lwc.js"
+            ],
+            "c/Lwc_DataTable_With_Pagination": [
+                "Lwc_DataTable_With_Pagination/Lwc_DataTable_With_Pagination.js"
+            ],
+            "c/lwc_DataTable_With_Pagination": [
+                "lwc_DataTable_With_Pagination/lwc_DataTable_With_Pagination.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}

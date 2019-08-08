@@ -1,0 +1,24 @@
+<template>
+    <lightning-card>
+        <template if:true={contactData}>
+            <h3 slot="actions">
+                <div class="slds-button-group" role="group">
+                    <lightning-button icon-name="utility:left" label="First" onclick={handleFirst} icon-position="left"
+                        disabled={showFirstButton}></lightning-button>
+                    <lightning-button icon-name="utility:chevronleft" label="Previous" onclick={handlePrevious}
+                        icon-position="left" disabled={showFirstButton}></lightning-button>
+                            {pageNumber} of {totalpages}
+                    <lightning-button label="Next" icon-name="utility:chevronright" icon-position="right"
+                        onclick={handleNext} disabled={showLastButton}></lightning-button>
+                    <lightning-button icon-name="utility:right" label="Last" onclick={handleLast} icon-position="left"
+                        disabled={showLastButton}></lightning-button>
+                </div>
+            </h3>
+            <h3 slot="title">
+                Contact Data
+            </h3>
+            <lightning-datatable key-field="Id" data={contactData} hide-checkbox-column="true" columns={contactColumns}>
+            </lightning-datatable>
+        </template>
+    </lightning-card>
+</template>
